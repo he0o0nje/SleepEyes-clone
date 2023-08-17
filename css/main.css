@@ -3,18 +3,6 @@
 .pcbr {
   display: block;
 }
-.tbbr {
-  display: none;
-}
-.mbbr {
-  display: none;
-}
-.pctb {
-  display: block;
-}
-.dn {
-  display: none;
-}
 .section > div {
   width: 100%;
   height: 100% !important;
@@ -104,7 +92,7 @@
 .visual {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   box-sizing: border-box;
 }
 .visual .v1 {
