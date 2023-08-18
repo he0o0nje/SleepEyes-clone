@@ -1,11 +1,5 @@
 @charset "utf-8";
 
-@media (min-width: 1400px) {
-  .visual .scroll {
-    opacity: 1;
-  }
-}
-
 @media (min-width: 813px) {
   #section2 .conwrap .tech:hover .txtwrap {
     transform: translateY(0);
@@ -282,6 +276,12 @@
   }
   100% {
     top: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .visual .scroll {
+    opacity: 1;
   }
 }
 
