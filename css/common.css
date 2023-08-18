@@ -33,8 +33,10 @@ body {
   width: 100%;
   height: 100%;
 }
-body::-webkit-scrollbar {
-  display: none;
+@media (min-width: 1400px) {
+  body::-webkit-scrollbar {
+    display: none;
+  }
 }
 html {
   overflow-y: scroll;
@@ -822,6 +824,7 @@ img {
 
   #footer .foot {
     display: block;
+    position: relative;
   }
   #footer .foot .info {
     width: 100%;
@@ -829,8 +832,8 @@ img {
   }
   #footer .foot ul {
     position: absolute;
-    right: 3%;
-    top: 65px;
+    right: 0;
+    top: 34px;
   }
   #footer .foot.tmbr .wrap {
     display: flex;
