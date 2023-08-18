@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+@media (max-width: 1399px) {
+  .visual .txtwrap h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1399px) {
+  .pcbr {
+    display: none;
+  }
+  #section2 {
+    box-sizing: border-box;
+    height: auto;
+    padding: 82px 3% 91px 3%;
+    background: #000 url(/images/main/sec2_bg.jpg) no-repeat center;
+    background-size: cover;
+  }
+  #section2 .conwrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #section2 .conwrap .titlearea {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 80px;
+    margin-bottom: 80px;
+  }
+  #section2 .conwrap .titlearea h3 {
+    font-size: 42px;
+  }
+  #section2 .conwrap .tech {
+    width: 32%;
+    height: 340px;
+    margin: 0 2% 2% 0;
+  }
+  #section2 .conwrap .tech .txtwrap .tit {
+    margin-bottom: 25px;
+  }
+}
+
+@media (min-width: 813px) and (max-width: 1399px) {
+  #section3 {
+    padding: 200px 5%;
+    height: auto;
+  }
+  #section3 .conwrap {
+    width: 100%;
+  }
+  #section3 .conwrap .txtwrap {
+    width: 100%;
+  }
+  #section3 .conwrap .imgwrap {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(100px);
+  }
+  #section3 .conwrap .imgwrap .img2 {
+    margin-left: 90px;
+  }
+  #section3 .conwrap .imgwrap .img3 {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 1399px) {
+  #section4 {
+    padding-top: 169px;
+    padding-bottom: 170px;
+  }
+  #section4 .conwrap .titlearea h3 {
+    padding-right: 25%;
+  }
+}

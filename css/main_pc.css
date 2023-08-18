@@ -1,5 +1,52 @@
 @charset "utf-8";
 
+@media (min-width: 1400px) {
+  .visual .scroll {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 813px) {
+  #section2 .conwrap .tech:hover .txtwrap {
+    transform: translateY(0);
+  }
+  #section2 .conwrap .tech:hover .txtwrap:before {
+    transform: translateY(0);
+  }
+  #section2 .conwrap .tech:hover .txtwrap p {
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.6s 0.2s;
+  }
+  #section2 .conwrap .tech:nth-child(4n),
+  #section2 .conwrap .tech:nth-child(7n) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1480px) {
+  #section2 .conwrap .titlearea h3 {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1800px) {
+  #section3 .conwrap .imgwrap .img1 {
+    display: none;
+  }
+}
+
+@media (min-width: 813px) {
+  #section4 .conwrap .titlearea a {
+    position: absolute;
+    right: 7.5%;
+    bottom: 0;
+  }
+  #section4 .conwrap .nn .slide:hover {
+    transform: translateY(-50px);
+  }
+}
+
 .pcbr {
   display: block;
 }
@@ -237,37 +284,6 @@
     top: 100%;
   }
 }
-@media (min-width: 1400px) {
-  .visual .scroll {
-    opacity: 1;
-  }
-}
-
-@media (max-width: 1399px) {
-  .visual .txtwrap h2 {
-    font-size: 50px;
-  }
-}
-@media (max-width: 812px) {
-  .visual .txtwrap {
-    width: 100vw;
-    padding: 0 3%;
-  }
-  .visual .txtwrap h2 {
-    font-size: 36px;
-  }
-  .visual .txtwrap p {
-    font-size: 16px;
-  }
-  .visual .txtwrap:before {
-    height: 30px;
-    margin: 0 0 20px 0;
-  }
-  .visual .txtwrap:after {
-    height: 30px;
-    margin: 45px 0 0 0;
-  }
-}
 
 /* section2 */
 #section2 {
@@ -391,101 +407,6 @@
   line-height: 1.7em;
 }
 
-@media (min-width: 813px) {
-  #section2 .conwrap .tech:hover .txtwrap {
-    transform: translateY(0);
-  }
-  #section2 .conwrap .tech:hover .txtwrap:before {
-    transform: translateY(0);
-  }
-  #section2 .conwrap .tech:hover .txtwrap p {
-    opacity: 1;
-    transform: translateY(0);
-    transition: all 0.6s 0.2s;
-  }
-  #section2 .conwrap .tech:nth-child(4n),
-  #section2 .conwrap .tech:nth-child(7n) {
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 1480px) {
-  #section2 .conwrap .titlearea h3 {
-    font-size: 42px;
-  }
-}
-@media (max-width: 1399px) {
-  .pcbr {
-    display: none;
-  }
-  #section2 {
-    box-sizing: border-box;
-    height: auto;
-    padding: 82px 3% 91px 3%;
-    background: #000 url(/images/main/sec2_bg.jpg) no-repeat center;
-    background-size: cover;
-  }
-  #section2 .conwrap {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  #section2 .conwrap .titlearea {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 0 80px;
-    margin-bottom: 80px;
-  }
-  #section2 .conwrap .titlearea h3 {
-    font-size: 42px;
-  }
-  #section2 .conwrap .tech {
-    width: 32%;
-    height: 340px;
-    margin: 0 2% 2% 0;
-  }
-  #section2 .conwrap .tech .txtwrap .tit {
-    margin-bottom: 25px;
-  }
-}
-@media (max-width: 812px) {
-  #section2 .conwrap {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  #section2 .conwrap .titlearea {
-    width: 100%;
-    padding: 0 0px;
-    margin-bottom: 80px;
-  }
-  #section2 .conwrap .titlearea h2 {
-    font-size: 16px;
-  }
-  #section2 .conwrap .titlearea h3 {
-    font-size: 32px;
-  }
-  #section2 .conwrap .tech {
-    width: 100%;
-    height: 300px;
-    margin: 0 2% 2% 0;
-  }
-  #section2 .conwrap .tech .txtwrap {
-    padding: 15px 25px;
-  }
-  #section2 .conwrap .tech .txtwrap .tit {
-    margin-bottom: 35px;
-    font-size: 22px;
-  }
-  #section2 .conwrap .tech.bg5 .tit {
-    font-size: 24px;
-  }
-}
-
 /* section3 */
 #section3 {
   box-sizing: border-box;
@@ -587,81 +508,6 @@
 }
 #section3 .conwrap .imgwrap .img3 {
   margin-left: 25px;
-}
-
-@media (max-width: 1800px) {
-  #section3 .conwrap .imgwrap .img1 {
-    display: none;
-  }
-}
-@media (min-width: 813px) and (max-width: 1399px) {
-  #section3 {
-    padding: 200px 5%;
-    height: auto;
-  }
-  #section3 .conwrap {
-    width: 100%;
-  }
-  #section3 .conwrap .txtwrap {
-    width: 100%;
-  }
-  #section3 .conwrap .imgwrap {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    transform: translateY(100px);
-  }
-  #section3 .conwrap .imgwrap .img2 {
-    margin-left: 90px;
-  }
-  #section3 .conwrap .imgwrap .img3 {
-    margin-left: 50px;
-  }
-}
-@media (max-width: 812px) {
-  #section3 {
-    padding: 140px 5%;
-  }
-  #section3 .conwrap {
-    width: 100%;
-  }
-  #section3 .conwrap .txtwrap {
-    width: 100%;
-  }
-  #section3 .conwrap .txtwrap .titlearea h2 {
-    font-size: 16px;
-  }
-  #section3 .conwrap .txtwrap .titlearea h3 {
-    font-size: 32px;
-  }
-  #section3 .conwrap .txtwrap .merit {
-    justify-content: space-between;
-  }
-  #section3 .conwrap .txtwrap .merit dl {
-    width: 46%;
-  }
-  #section3 .conwrap .txtwrap .merit dl dd {
-    font-size: 14px;
-  }
-  #section3 .conwrap .imgwrap {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(100px);
-    padding: 0;
-  }
-  #section3 .conwrap .imgwrap .img1 {
-    display: none;
-  }
-  #section3 .conwrap .imgwrap .img2 {
-    width: 49%;
-  }
-  #section3 .conwrap .imgwrap .img3 {
-    width: 49%;
-    margin: 0;
-  }
 }
 
 /* section4 */
@@ -803,53 +649,4 @@
 }
 #section4 .conwrap .nn .slide:hover .info .date:after {
   background: url(../images/main/notice_arr2.png) no-repeat;
-}
-
-@media (min-width: 813px) {
-  #section4 .conwrap .titlearea a {
-    position: absolute;
-    right: 7.5%;
-    bottom: 0;
-  }
-  #section4 .conwrap .nn .slide:hover {
-    transform: translateY(-50px);
-  }
-}
-@media (max-width: 1399px) {
-  #section4 {
-    padding-top: 169px;
-    padding-bottom: 170px;
-  }
-  #section4 .conwrap .titlearea h3 {
-    padding-right: 25%;
-  }
-}
-@media (max-width: 812px) {
-  #section4 {
-    padding: 190px 0 190px 3%;
-  }
-  #section4 .conwrap .titlearea h2 {
-    font-size: 16px;
-  }
-  #section4 .conwrap .titlearea h3 {
-    font-size: 32px;
-    width: 100%;
-  }
-  #section4 .conwrap .titlearea a {
-    margin-top: 20px;
-  }
-  #section4 .conwrap .nn .slide {
-    width: 320px;
-    margin-right: 10px;
-  }
-  #section4 .conwrap .nn .slide .thumb {
-    height: 178px;
-  }
-  #section4 .conwrap .nn .slide .thumb:after {
-    width: 59px;
-    height: 59px;
-  }
-  #section4 .conwrap .nn .slide .info .tit {
-    font-size: 18px;
-  }
 }
