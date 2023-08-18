@@ -447,6 +447,40 @@
     margin-bottom: 25px;
   }
 }
+@media (max-width: 812px) {
+  #section2 .conwrap {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #section2 .conwrap .titlearea {
+    width: 100%;
+    padding: 0 0px;
+    margin-bottom: 80px;
+  }
+  #section2 .conwrap .titlearea h2 {
+    font-size: 16px;
+  }
+  #section2 .conwrap .titlearea h3 {
+    font-size: 32px;
+  }
+  #section2 .conwrap .tech {
+    width: 100%;
+    height: 300px;
+    margin: 0 2% 2% 0;
+  }
+  #section2 .conwrap .tech .txtwrap {
+    padding: 15px 25px;
+  }
+  #section2 .conwrap .tech .txtwrap .tit {
+    margin-bottom: 35px;
+    font-size: 22px;
+  }
+  #section2 .conwrap .tech.bg5 .tit {
+    font-size: 24px;
+  }
+}
 
 /* section3 */
 #section3 {
@@ -579,6 +613,47 @@
   }
   #section3 .conwrap .imgwrap .img3 {
     margin-left: 50px;
+  }
+}
+@media (max-width: 812px) {
+  #section3 {
+    padding: 140px 5%;
+  }
+  #section3 .conwrap {
+    width: 100%;
+  }
+  #section3 .conwrap .txtwrap {
+    width: 100%;
+  }
+  #section3 .conwrap .txtwrap .titlearea h2 {
+    font-size: 16px;
+  }
+  #section3 .conwrap .txtwrap .titlearea h3 {
+    font-size: 32px;
+  }
+  #section3 .conwrap .txtwrap .merit {
+    justify-content: space-between;
+  }
+  #section3 .conwrap .txtwrap .merit dl {
+    width: 46%;
+  }
+  #section3 .conwrap .txtwrap .merit dl dd {
+    font-size: 14px;
+  }
+  #section3 .conwrap .imgwrap {
+    width: 100%;
+    justify-content: space-between;
+  }
+  #section3 .conwrap .imgwrap .img1 {
+    display: none;
+  }
+  #section3 .conwrap .imgwrap .img2 {
+    width: 53%;
+    margin: 0;
+  }
+  #section3 .conwrap .imgwrap .img3 {
+    width: 53%;
+    margin: 0 0 0 10px;
   }
 }
 
