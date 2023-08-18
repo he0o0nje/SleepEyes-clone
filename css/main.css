@@ -683,11 +683,6 @@
   color: #000;
   font-weight: 600;
 }
-#section4 .conwrap .titlearea a {
-  position: absolute;
-  right: 7.5%;
-  bottom: 0;
-}
 #section4 .conwrap .nn {
 }
 #section4 .conwrap .nn > div {
@@ -804,4 +799,45 @@
 }
 #section4 .conwrap .nn .slide:hover .info .date:after {
   background: url(../images/main/notice_arr2.png) no-repeat;
+}
+
+@media (min-width: 813px) {
+  #section4 .conwrap .titlearea a {
+    position: absolute;
+    right: 7.5%;
+    bottom: 0;
+  }
+}
+@media (max-width: 1399px) {
+  #section4 .conwrap .titlearea h3 {
+    padding-right: 25%;
+  }
+}
+@media (max-width: 812px) {
+  #section4 {
+    padding: 190px 0 190px 3%;
+  }
+  #section4 .conwrap .titlearea h2 {
+    font-size: 16px;
+  }
+  #section4 .conwrap .titlearea h3 {
+    font-size: 32px;
+  }
+  #section4 .conwrap .titlearea a {
+    margin-top: 20px;
+  }
+  #section4 .conwrap .nn .slide {
+    width: 320px;
+    margin-right: 10px;
+  }
+  #section4 .conwrap .nn .slide .thumb {
+    height: 178px;
+  }
+  #section4 .conwrap .nn .slide .thumb:after {
+    width: 59px;
+    height: 59px;
+  }
+  #section4 .conwrap .nn .slide .info .tit {
+    font-size: 18px;
+  }
 }
