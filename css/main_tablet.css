@@ -14,7 +14,7 @@
     box-sizing: border-box;
     height: auto;
     padding: 82px 3% 91px 3%;
-    background: #000 url(/images/main/sec2_bg.jpg) no-repeat center;
+    background: #000 url(../images/main/sec2_bg.jpg) no-repeat center;
     background-size: cover;
   }
   #section2 .conwrap {

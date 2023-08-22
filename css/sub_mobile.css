@@ -2,7 +2,7 @@
 
 @media (max-width: 812px) {
   .pageTop.pn1 .bg {
-    background: url(/images/sub/page_visual1.jpg) no-repeat 55%;
+    background: url(../images/sub/page_visual1.jpg) no-repeat 55%;
     background-size: cover;
   }
   .pageTop .titlearea {
