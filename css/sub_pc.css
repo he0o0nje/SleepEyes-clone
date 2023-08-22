@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+body::-webkit-scrollbar {
+  display: none;
+}
 .pcbr {
   display: block;
 }
@@ -30,7 +33,7 @@
   top: 0;
   z-index: 1;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
 }
 .pageTop .bg {
   width: 100%;
@@ -129,10 +132,10 @@
   position: relative;
   width: 100%;
   height: 100%;
-  padding-top: calc(100vh + 200px);
+  padding-top: calc(70vh + 30px);
 }
 .page_location {
-  transform: translateY(-150px);
+  transform: translateY(-70px);
   display: flex;
   max-width: 1400px;
   width: 100%;

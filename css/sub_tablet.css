@@ -1,1 +1,24 @@
 @charset "UTF-8";
+
+@media (max-width: 1399px) {
+  .pageTop.pn1 .bg {
+    background-size: cover;
+  }
+  .pageTop .titlearea h2 {
+    font-size: 80px;
+  }
+  .pageTop .titlearea h3 {
+    font-size: 22px;
+  }
+  .pageTop .titlearea p {
+    font-size: 14px;
+  }
+  .page_location {
+    padding: 20px;
+    transform: translateY(-30px);
+    width: 94%;
+  }
+  .innerwrap {
+    width: 94%;
+  }
+}
