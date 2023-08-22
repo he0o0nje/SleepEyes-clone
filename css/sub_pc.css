@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+@media (min-width: 1400px) {
+  .m11 .sec3 .history .type1:before {
+    display: block;
+    content: "";
+    width: 1px;
+    height: calc(100% - 320px - 215px - 150px);
+    background: #ccc;
+    position: absolute;
+    left: 50%;
+    top: calc(215px + 160px);
+  }
+  .m11 .sec3 .history .type2 dl {
+    padding: 40px 0 0;
+  }
+  .m11 .sec3 .certified ul {
+    margin-top: 70px;
+  }
+  .m11 .sec3 .certified ul li:nth-child(5n) {
+    margin-right: 0;
+  }
+  .m11 .sec3 .certified ul li {
+    margin: 0 1.25% 30px 0;
+  }
+  .m11 .sec3 .certified ul li .img {
+    height: 375px;
+  }
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -248,10 +276,6 @@ body::-webkit-scrollbar {
   background: url(/images/sub/m11_sec1_img1.jpg) no-repeat center;
   background-size: cover;
 }
-.m11 .sec1 .txtarea {
-  display: flex;
-  justify-content: space-between;
-}
 .m11 .sec1 .txtarea .txts {
   width: 46.45%;
 }
@@ -271,8 +295,7 @@ body::-webkit-scrollbar {
   overflow: hidden;
   border-radius: 10px;
   width: 46.45%;
-  height: 45vh;
-  margin-top: 42px;
+  margin-top: 35px;
 }
 .m11 .sec1 .txtarea .img > div {
   width: 100%;
@@ -407,7 +430,6 @@ body::-webkit-scrollbar {
   background: url(/images/sub/m11_sec1_bg.png) no-repeat right 100px;
 }
 .m11 .sec3 .conwrap {
-  display: flex;
   position: relative;
   z-index: 10;
 }
@@ -491,48 +513,12 @@ body::-webkit-scrollbar {
   position: relative;
   padding: 215px 0 180px;
 }
-.m11 .sec3 .history .type1:before {
-  display: block;
-  content: "";
-  width: 1px;
-  height: calc(100% - 320px - 215px - 150px);
-  background: #ccc;
-  position: absolute;
-  left: 50%;
-  top: calc(215px + 160px);
-}
 .m11 .sec3 .history .type1 .boxwrap {
-  display: flex;
-  align-items: center;
   position: relative;
   margin-bottom: 100px;
 }
 .m11 .sec3 .history .type1 .boxwrap:last-child {
   margin-bottom: 0;
-}
-.m11 .sec3 .history .type1 .boxwrap:before {
-  display: block;
-  content: "";
-  width: 11px;
-  height: 11px;
-  background: #2287ca;
-  border-radius: 50%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-.m11 .sec3 .history .type1 .boxwrap .img {
-  box-sizing: border-box;
-  width: 50%;
-  padding: 0 90px 0 0px;
-  text-align: right;
-}
-.m11 .sec3 .history .type1 .boxwrap .txt {
-  box-sizing: border-box;
-  width: 50%;
-  padding: 0 0 0 90px;
-  text-align: left;
 }
 .m11 .sec3 .history .type1 .boxwrap .txt dl {
 }
@@ -569,56 +555,10 @@ body::-webkit-scrollbar {
   top: 10px;
 }
 
-.m11 .sec3 .history .type1 .boxwrap:nth-child(odd) {
-  flex-direction: row-reverse;
-}
-.m11 .sec3 .history .type1 .boxwrap:nth-child(odd) .img {
-  padding: 0 0 0 90px;
-  text-align: left;
-}
-.m11 .sec3 .history .type1 .boxwrap:nth-child(odd) .txt {
-  padding: 0 90px 0 0px;
-  text-align: right;
-}
-.m11 .sec3 .history .type1 .boxwrap:nth-child(odd) .txt ul li {
-  padding: 0 15px 0 0;
-}
-.m11 .sec3 .history .type1 .boxwrap:nth-child(odd) .txt dl dd ul li:before {
-  left: calc(100% - 5px);
-}
-
-.m11 .sec3 .history .type2 {
-  display: flex;
-  flex-wrap: wrap;
-}
 .m11 .sec3 .history .type2 dl {
   position: relative;
   width: 25%;
   margin-bottom: 120px;
-  padding: 40px 0 0;
-}
-.m11 .sec3 .history .type2 dl:before {
-  display: block;
-  content: "";
-  width: 11px;
-  height: 11px;
-  background: #2287ca;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 5;
-}
-.m11 .sec3 .history .type2 dl:nth-child(1):after,
-.m11 .sec3 .history .type2 dl:nth-child(5):after {
-  display: block;
-  content: "";
-  width: 400%;
-  height: 1px;
-  background: #ccc;
-  position: absolute;
-  left: 0;
-  top: 5px;
 }
 .m11 .sec3 .history .type2 dl dt {
   font-family: "Lexend";
@@ -665,19 +605,13 @@ body::-webkit-scrollbar {
 .m11 .sec3 .certified ul {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 70px;
 }
 .m11 .sec3 .certified ul li {
   width: 19%;
-  margin: 0 1.25% 70px 0;
-}
-.m11 .sec3 .certified ul li:nth-child(5n) {
-  margin-right: 0;
 }
 .m11 .sec3 .certified ul li .img {
   overflow: hidden;
   width: 262px;
-  height: 375px;
   border: 1px solid #ddd;
   border-radius: 10px;
   background: #fff;

@@ -20,4 +20,112 @@
   .page_title1 {
     font-size: 38px;
   }
+  .m00 .section .tit1 {
+    padding: 80px 0 80px;
+  }
+  .m00 .section .tit1 .en {
+    font-size: 38px;
+  }
+  .m00 .section .tit1 h1 {
+    font-size: 38px;
+  }
+  .m00 .section .tit1 h4 {
+    font-size: 28px;
+  }
+  .m11 .sec1 .imgarea {
+    height: 360px;
+  }
+  .m11 .sec1 .txtarea .txts {
+    width: 100%;
+  }
+  .m11 .sec1 .txtarea .txts h5 {
+    font-size: 28px;
+  }
+  .m11 .sec1 .txtarea .txts p {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .m11 .sec1 .txtarea .img {
+    width: 100%;
+    height: 320px;
+  }
+  .m11 .sec1 .data1 h4 {
+    font-size: 28px;
+  }
+  .m11 .sec1 .data1 .unit {
+    font-size: 14px;
+  }
+  .table table th {
+    font-size: 14px;
+  }
+  .table table td {
+    font-size: 14px;
+  }
+  .m11 .sec1 .data1 .tip {
+    font-size: 14px;
+  }
+  .m11 .sec3 .conwrap .imgarea {
+    width: 100%;
+  }
+  .m11 .sec3 .conwrap .txtarea {
+    width: 100%;
+    padding: 40px 3% 0;
+  }
+  .m11 .sec3 .history {
+    padding: 80px 0 80px;
+    margin-top: 80px;
+  }
+  .m11 .sec3 .history .titlearea h4 {
+    font-size: 28px;
+  }
+  .m11 .sec3 .history .titlearea h5 {
+    font-size: 30px;
+  }
+  .m11 .sec3 .history .type1 {
+    padding: 100px 0;
+  }
+  .m11 .sec3 .history .type1 .boxwrap {
+    position: relative;
+    margin-bottom: 60px;
+  }
+  .m11 .sec3 .history .type1 .boxwrap .img {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .m11 .sec3 .history .type1 .boxwrap .txt {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+  }
+  .m11 .sec3 .history .type1 .boxwrap .txt dl dt {
+    font-size: 48px;
+  }
+  .m11 .sec3 .history .type1 .boxwrap .txt dl dd ul {
+    margin-top: 25px;
+  }
+  .m11 .sec3 .history .type2 dl dt {
+    font-size: 48px;
+  }
+  .m11 .sec3 .history .type2 dl dd ul {
+    margin-top: 15px;
+  }
+  .m11 .sec3 .history .type2 dl {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .m11 .sec3 .certified {
+    padding: 100px 0;
+  }
+  .m11 .sec3 .certified h4 {
+    font-size: 28px;
+  }
+  .m11 .sec3 .certified ul {
+    justify-content: space-between;
+  }
+  .m11 .sec3 .certified ul li {
+    width: 49%;
+  }
+  .m11 .sec3 .certified ul li .img {
+    padding: 70.5% 0;
+  }
 }
