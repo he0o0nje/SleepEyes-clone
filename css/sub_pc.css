@@ -1,19 +1,7 @@
 @charset "UTF-8";
 
 .pcbr {
-  display: block !important;
-}
-.ptbr {
-  display: block !important;
-}
-.tbr {
-  display: none !important;
-}
-.tmbr {
-  display: none !important;
-}
-.mbr {
-  display: none !important;
+  display: block;
 }
 #btn_top {
   opacity: 0;
