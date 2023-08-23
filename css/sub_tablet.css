@@ -59,18 +59,18 @@
     max-width: 262px;
     width: 100%;
   }
-  .m11 .sec3 .certified h4 {
-    margin-bottom: 20px;
-  }
   .m11 .sec3 .certified ul li .img img {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
   }
+  .m11 .sec3 .certified h4 {
+    margin-bottom: 20px;
+  }
 }
 
-@media (max-width: 1400px) and (min-width: 813px) {
+@media (max-width: 1399px) and (min-width: 813px) {
   .m11 .sec3 .history .type1:before {
     display: block;
     content: "";
@@ -88,6 +88,9 @@
     width: 25%;
     margin: 0 1%;
     margin-top: 70px;
+  }
+  .m11 .sec3 .certified ul li .img {
+    padding: 62.5% 0;
   }
 }
 

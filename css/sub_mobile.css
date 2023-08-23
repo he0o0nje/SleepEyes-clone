@@ -128,4 +128,30 @@
   .m11 .sec3 .certified ul li .img {
     padding: 70.5% 0;
   }
+
+  .m11 .sec4 .innerwrap .imgarea {
+    height: 320px;
+  }
+  .m11 .sec4 .innerwrap .conarea {
+    padding: 70px 0 140px;
+  }
+  .m11 .sec4 .innerwrap .conarea ul {
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .m11 .sec4 .innerwrap .conarea ul::before {
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -30px;
+  }
+  .m11 .sec4 .innerwrap .conarea ul li {
+    width: 50%;
+    margin-bottom: 60px;
+  }
+  .m11 .sec4 .innerwrap .conarea ul li:nth-child(2n):after {
+    display: none;
+  }
 }

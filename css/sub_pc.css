@@ -607,6 +607,7 @@ body::-webkit-scrollbar {
 }
 .m11 .sec3 .certified ul li {
   width: 19%;
+  margin-bottom: 40px;
 }
 .m11 .sec3 .certified ul li .img {
   overflow: hidden;
