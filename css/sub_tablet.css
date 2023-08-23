@@ -68,6 +68,9 @@
   .m11 .sec3 .certified h4 {
     margin-bottom: 20px;
   }
+  #footer .foot ul {
+    display: none;
+  }
 }
 
 @media (max-width: 1399px) and (min-width: 813px) {
