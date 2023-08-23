@@ -31,6 +31,9 @@
 body::-webkit-scrollbar {
   display: none;
 }
+video::-webkit-media-controls-timeline {
+  display: none;
+}
 .pcbr {
   display: block;
 }
