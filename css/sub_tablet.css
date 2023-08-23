@@ -51,9 +51,6 @@
   .m11 .sec3 .history .type1 .boxwrap .txt dl dt {
     font-size: 60px;
   }
-  .m11 .sec3 .history .type2 dl {
-    padding: 40px 20px 0 0;
-  }
   .m11 .sec3 .history .type2 dl dt {
     font-size: 60px;
   }
@@ -83,9 +80,6 @@
     position: absolute;
     left: 50%;
     top: calc(215px + 100px);
-  }
-  .m11 .sec3 .history .type2 dl {
-    padding: 40px 20px 0 0;
   }
   .m11 .sec3 .certified ul {
     justify-content: center;
